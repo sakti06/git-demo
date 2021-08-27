@@ -1,0 +1,7 @@
+ ssh-keygen
+   59  cat /c/Users/DRACARYS/.ssh/id_rsa.pub
+   60  eval "$(ssh-agent -s)"
+   61  ssh-add /c/Users/DRACARYS/.ssh/id_rsa
+   62  ssh -t git@github.com
+   63  ssh -t git@github.com
+   64  ssh -T git@github.com
